@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace NLayer.Repository.UnitOfWork
 {
+    //Busines Kodlarında veritabanına değişikliklerin yansıtılması istenir. //
     public class UnitOfWork : IUnitOfWork
     {
         private readonly AppDbContext _appDbContext;

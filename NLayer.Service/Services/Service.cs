@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace NLayer.Service.Services
 {
+    //Business katmanında değişiklikler yansıtılır.
     public class Service<T> : IService<T> where T : class
     {
         private readonly IGenericRepository<T> _repository;

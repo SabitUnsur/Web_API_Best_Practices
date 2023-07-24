@@ -27,12 +27,12 @@ namespace NLayer.Repository.Repositories
 
         public async Task AddAsync(T entity)
         {
-           await _dbContext.AddAsync(entity);
+           await _dbSet.AddAsync(entity);
         }
 
         public async Task AddRangeAsync(IEnumerable<T> entities)
         {
-            await _dbContext.AddRangeAsync(entities);
+            await _dbSet.AddRangeAsync(entities);
         }
 
         public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression)
