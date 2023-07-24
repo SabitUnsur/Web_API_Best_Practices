@@ -1,0 +1,17 @@
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.deps.json
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.csproj.AssemblyReference.cache
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.AssemblyInfoInputs.cache
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.AssemblyInfo.cs
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.csproj.CoreCompileInputs.cache
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.csproj.CopyComplete
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\refint\NLayer.Repository.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\ref\NLayer.Repository.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.genruntimeconfig.cache
