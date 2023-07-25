@@ -633,6 +633,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "NLayer.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLayer.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        }
+      },
       "NLayer.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1641,6 +1654,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NLayer.Caching/1.0.0": {
+      "type": "project",
+      "path": "../NLayer.Caching/NLayer.Caching.csproj",
+      "msbuildProject": "../NLayer.Caching/NLayer.Caching.csproj"
+    },
     "NLayer.Core/1.0.0": {
       "type": "project",
       "path": "../NLayer.Core/NLayer.Core.csproj",
@@ -1662,7 +1680,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Autofac.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
-      "NLayer.Service >= 1.0.0",
+      "NLayer.Caching >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1693,8 +1711,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Service\\NLayer.Service.csproj": {
-              "projectPath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Service\\NLayer.Service.csproj"
+            "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Caching\\NLayer.Caching.csproj": {
+              "projectPath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Caching\\NLayer.Caching.csproj"
             }
           }
         }
