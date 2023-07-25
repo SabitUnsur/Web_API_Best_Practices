@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Service.Services.Validations
+namespace NLayer.Service.Validations
 {
-    public class ProductDtoValidatior:AbstractValidator<ProductDto>
+    public class ProductDtoValidatior : AbstractValidator<ProductDto>
     {
         public ProductDtoValidatior()
         {
@@ -16,7 +16,6 @@ namespace NLayer.Service.Services.Validations
             RuleFor(x => x.Price).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater than 0");
             RuleFor(x => x.Stock).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater than 0");
             RuleFor(x => x.CategoryId).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater than 0");
-        } 
+        }
     }
 }
-  

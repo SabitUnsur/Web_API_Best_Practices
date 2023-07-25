@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Service.Services.Mapping
+namespace NLayer.Service.Mapping
 {
     public class MapProfile : Profile
     {
