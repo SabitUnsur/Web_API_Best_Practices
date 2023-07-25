@@ -50,3 +50,5 @@ C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Microsoft.Ext
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Npgsql.dll
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
