@@ -52,3 +52,7 @@ C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Npgsql.dll
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\sabit\source\repos\NLayer.App\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs

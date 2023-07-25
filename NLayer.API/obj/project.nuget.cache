@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CQfXFYAOYuF37krecxvabSwm4uGAOv8kQvtByWBPuVG9wv3Amaj0fXyRWoLPnIv3cGowhY0BPBcdRnB7IWPBUw==",
+  "dgSpecHash": "vC5EHKuK4Z1LHQVNFcycKF4K0qg3HeIh7yZpwnQ8Tq9L4GrYQ1OvINPoTm0n8V4n9XMuCUHF8WkwCshx0yVA3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",

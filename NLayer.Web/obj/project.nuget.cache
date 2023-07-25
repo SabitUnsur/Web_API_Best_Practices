@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zr3I63MrJAHz5Qr56/i5a58W1FFzVco8HSsPZqcUwkvjK/p3fItQpG+aG9L05eSTDzsfs4f2M9fiTmyUboZyVQ==",
+  "dgSpecHash": "nTp//N4t3YUXVZVnu59zuR84JPqrgsFDARykj0E2Grx2gkjyqW3e0ipyCc7AqMRdM5vQ9oCP3nvjqMmvjgsmsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",

@@ -1,3 +1,6 @@
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
+using NLayer.API.Filters;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
@@ -6,12 +9,19 @@ using NLayer.Repository.Repositories;
 using NLayer.Repository.UnitOfWork;
 using NLayer.Service.Services;
 using NLayer.Service.Services.Mapping;
+using NLayer.Service.Services.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute()))
+    .AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidatior>());
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+}); //Burada Apinin default hata dönüþ modelini kapatarak kendimizinkini aktif hale getirdik.
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
