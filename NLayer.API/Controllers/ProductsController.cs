@@ -39,7 +39,7 @@ namespace NLayer.API.Controllers
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productsDto));
         }
 
-
+        //[ValidateFilterAttribute]
         [ServiceFilter(typeof(NotFoundFilter<Product>))]
         //GET api/products/5 
         [HttpGet ("{id}")]
