@@ -12,11 +12,28 @@ namespace NLayer.API.Filters
         {
             //Fluent Validation hataları buraya eklenir.
             //Biz CustomResponse adında bir dönüş yaptığımız için fluentValidationun kendi dönüşü yerine buna entegre ettik. 
+
             if (!context.ModelState.IsValid)               
             {
                  var errors = context.ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();
                 context.Result = new BadRequestObjectResult(CustomResponseDto<NoContentDto>.Fail(400, errors));
             }
+
+
+            //AŞAĞIDAKİ GİBİ BİR KODDAN KURTULDUK.
+
+            /* if (validationResult.IsValid)
+            {
+               
+            }
+
+            else
+            {
+                foreach (var item in validationResult.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }*/
         }
     }
 }

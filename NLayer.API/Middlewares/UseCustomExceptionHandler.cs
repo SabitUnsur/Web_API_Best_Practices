@@ -9,7 +9,7 @@ namespace NLayer.API.Middlewares
     //Bir hata olduğunda kendi CustomResponse modelimizi dönebilmek için middleware yazdık. 
     public static class UseCustomExceptionHandler
     { 
-        public static void UserCustomException(this IApplicationBuilder app)
+        public static void UseCustomException(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(config =>
             {
@@ -20,7 +20,8 @@ namespace NLayer.API.Middlewares
                     var statusCode = exceptionFeature.Error switch 
                     {
                         ClientSideException => 400, //Hata kullanıcıdan kaynaklı ise 400 dön , değil ise 500  dön olarak atama yaptık
-                        _ => 500
+                        NotFoundException => 404, //Hazırladığımız NotFoundException sınıfından ise 404 dön.
+                        _ => 500 //Haricinde ise 500 dön.
                     };
 
                     context.Response.StatusCode = statusCode; //gelen statusCode ile response olusturduk.

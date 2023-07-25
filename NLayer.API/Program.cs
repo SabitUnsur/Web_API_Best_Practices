@@ -17,13 +17,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute()))
-    .AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidatior>());
+    .AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
 }); //Burada Apinin default hata dönüþ modelini kapatarak kendimizinkini aktif hale getirdik.
 
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
@@ -55,7 +56,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UserCustomException();
+app.UseCustomException();
 
 app.UseAuthorization();
 
