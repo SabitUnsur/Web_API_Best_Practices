@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GAgchsej1ZajFJBCLS0XRJqpEn0+V5efGgOvsK4JpZO/3bIv0u6EcfbTY667nSKuJIwver5ysmIlUrYhaitpmg==",
+  "dgSpecHash": "EU54OVvwuAkAjdMU7tNcbXWjpRh0r6rqqzSCLwys1ENRrZ4xBA/8tKovQ9IS/H8u8dizk2ZPQA7hj+9W0OSUIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
@@ -84,7 +84,7 @@
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
-    "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.9\\microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

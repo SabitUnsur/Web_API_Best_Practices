@@ -1086,6 +1086,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.9",
+      "Microsoft.EntityFrameworkCore.Relational >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
       "NLayer.Core >= 1.0.0",
       "Npgsql >= 7.0.4",
@@ -1136,6 +1137,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.9, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[7.0.9, )"
           },

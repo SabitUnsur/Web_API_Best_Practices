@@ -661,6 +661,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.9",
           "NLayer.Core": "1.0.0",
           "Npgsql": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"

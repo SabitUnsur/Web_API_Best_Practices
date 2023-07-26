@@ -5,6 +5,7 @@ namespace NLayer.Web.Services
     public class CategoryApiService
     {
         //API'ye istek yapabilmek için yazılan sınıflar
+        // API <--- APIService <---- MVC 
 
         private readonly HttpClient _httpClient;
 

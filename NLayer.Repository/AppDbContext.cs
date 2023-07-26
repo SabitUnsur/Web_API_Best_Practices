@@ -77,7 +77,7 @@ namespace NLayer.Repository
 
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+       protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
