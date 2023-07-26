@@ -1,0 +1,47 @@
+﻿@using NLayer.Core.DTOs;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<ProductWithCategoryDto>
+
+<table class="table table-striped">
+
+    <thead>
+
+       <tr>
+        <td>Id </td>
+        <td>Name </td>
+        <td>Price</td>
+        <td>Stock</td>
+        <td>Category</td>
+        <td>Created Date</td>
+        <td>Actions</td>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+            <td>@item.Category.Name</td>
+            <td>@item.CreatedDate</td>
+            <td><a class="btn btn-warning" asp-controller="Products" asp-action="Update" asp-route-id="@item.ID">Update</a></td>
+            <td><a class="btn btn-danger" asp-controller="Products" asp-action="Remove" asp-route-id="@item.ID">Delete</a></td>
+            </tr>
+        }
+
+    </tbody>
+
+
+
+</table>
+

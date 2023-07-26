@@ -19,6 +19,8 @@ namespace NLayer.API.Filters
                 context.Result = new BadRequestObjectResult(CustomResponseDto<NoContentDto>.Fail(400, errors));
             }
 
+            //validate() metotunun işlerini yapmış oluyoruz. KISACA.
+
 
             //AŞAĞIDAKİ GİBİ BİR KODDAN KURTULDUK.
 

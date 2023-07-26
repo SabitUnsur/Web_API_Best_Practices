@@ -6,6 +6,8 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Filters
 {
+    //NotFoundException bu sefer Filter ile yazıldı.
+    //Bazen data null olduğunda mesaj kuyruğuna meaj atsın, sms göndersin gibi işlemler için de Filter yazılır.
     public class NotFoundFilter<T> : IAsyncActionFilter where T : BaseEntity //Generic kullandığımız için Interface mirası aldık.
     {
         private readonly IService<T> _service;

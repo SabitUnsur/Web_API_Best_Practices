@@ -231,6 +231,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Repository\\NLayer.Repository.csproj": {
+                "projectPath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Repository\\NLayer.Repository.csproj"
+              },
               "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Service\\NLayer.Service.csproj": {
                 "projectPath": "C:\\Users\\sabit\\source\\repos\\NLayer.App\\NLayer.Service\\NLayer.Service.csproj"
               }
@@ -246,6 +249,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
