@@ -51,7 +51,7 @@ namespace NLayer.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(ProductDto productDto)
+        public async Task<IActionResult> Save(ProductDto productDto)
         {
             var product = await _productService.AddAsync(_mapper.Map<Product>(productDto));
             var AddedproductDto = _mapper.Map<List<ProductDto>>(product);

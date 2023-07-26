@@ -6,6 +6,7 @@ using NLayer.Service.Mapping;
 using FluentValidation.AspNetCore;
 using NLayer.Service.Validations;
 using NLayer.Web;
+using NLayer.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,21 @@ builder.Services.AddControllersWithViews().AddFluentValidation(x => x.RegisterVa
 builder.Services.AddEntityFrameworkNpgsql()
   .AddDbContext<AppDbContext>()
   .BuildServiceProvider();
+
+
+//APIServicelerin hangi Url kullanacaklarýný burada belirlemiþ olduk.
+
+builder.Services.AddHttpClient<ProductApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
+
+builder.Services.AddHttpClient<CategoryApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
+
+
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
